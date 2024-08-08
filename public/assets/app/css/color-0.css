@@ -1,0 +1,66 @@
+
+/* Reset */
+html, body, a, a:hover, table.table{color:#000000;}
+
+
+/* Colors */
+.color-white{color:#ffffff!important;}
+.color-black{color:#000000!important;}
+.color-p, .h-color-p:hover{color:#f93a1d!important;}
+.color-s, .h-color-s:hover{color:#e31718!important;}
+.color-t, .h-color-t:hover{color:#14206a!important;}
+.color-gray-01, .h-color-gray-01:hover{color:#666666!important;}
+.color-gray-02, .h-color-gray-02:hover{color:#808183!important;}
+.color-gray-03, .h-color-gray-03:hover{color:#9da0a5!important;}
+.color-gray-04, .h-color-gray-04:hover{color:#c5c5c5!important;}
+.color-gray-05, .h-color-gray-05:hover{color:#f2f2f2!important;}
+
+.bg-white{background:#ffffff!important;}
+.bg-black{background:#000000!important;}
+.bg-p{background:#f93a1d!important;}
+.bg-s{background:#e31718!important;}
+.bg-t{background:#14206a!important;}
+.bg-gray-01{background:#666666!important;}
+.bg-gray-02{background:#808183!important;}
+.bg-gray-03{background:#9da0a5!important;}
+.bg-gray-04{background:#c5c5c5!important;}
+.bg-gray-05{background:#f2f2f2!important;}
+
+.bcolor-white{border-color:#ffffff!important;}
+.bcolor-black{border-color:#000000!important;}
+.bcolor-p{border-color:#f93a1d!important;}
+.bcolor-s{border-color:#e31718!important;}
+.bcolor-t{border-color:#14206a!important;}
+.bcolor-gray-01{border-color:#666666!important;}
+.bcolor-gray-02{border-color:#808183!important;}
+.bcolor-gray-03{border-color:#9da0a5!important;}
+.bcolor-gray-04{border-color:#c5c5c5!important;}
+.bcolor-gray-05{border-color:#f2f2f2!important;}
+
+
+/* Inputs */
+input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
+input[type=number], input[type=phone], input[type=submit], input[type=file], select, textarea{
+    color:#000000; background:#ffffff; border-color:#ffffff;
+}
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, input[type=date]:focus, 
+input[type=tel]:focus, input[type=number]:focus, input[type=phone]:focus, input[type=submit]:focus, 
+input[type=file]:focus, select:focus, textarea:focus{
+    border-color:#f93a1d!important;
+}
+input::placeholder{color:#666666;}
+
+
+/* Button */
+.btn.btn-p, .btn.btn-p:focus{color:#ffffff; background:#f93a1d; border-color:#f93a1d;}
+.btn.btn-p:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.06);}
+.btn.btn-p:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.12);}
+
+.btn.btn-t, .btn.btn-t:focus{color:#ffffff; background:#14206a; border-color:#14206a;}
+.btn.btn-t:hover{box-shadow:inset 0 0 0 100rem rgba(255,255,255,.06);}
+.btn.btn-t:active{box-shadow:inset 0 0 0 100rem rgba(255,255,255,.12);}
+
+
+/* Box Shadow */
+.bshadow-01{box-shadow:rgba(145,158,171,.16) 0px 8px 16px!important;}
+.bshadow-02{box-shadow:rgba(145,158,171,.5) 0px 8px 16px!important;}
