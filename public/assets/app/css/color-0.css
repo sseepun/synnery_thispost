@@ -14,6 +14,7 @@ html, body, a, a:hover, table.table{color:#000000;}
 .color-gray-03, .h-color-gray-03:hover{color:#9da0a5!important;}
 .color-gray-04, .h-color-gray-04:hover{color:#c5c5c5!important;}
 .color-gray-05, .h-color-gray-05:hover{color:#f2f2f2!important;}
+.color-gray-06, .h-color-gray-06:hover{color:#767687!important;}
 
 .bg-white{background:#ffffff!important;}
 .bg-black{background:#000000!important;}
@@ -64,3 +65,33 @@ input::placeholder{color:#666666;}
 /* Box Shadow */
 .bshadow-01{box-shadow:rgba(145,158,171,.16) 0px 8px 16px!important;}
 .bshadow-02{box-shadow:rgba(145,158,171,.5) 0px 8px 16px!important;}
+
+
+/* Section 02 */
+.section-02 .panel-right .swiper-pagination .swiper-pagination-bullet-active{background:#f93a1d;}
+
+
+/* Tab 01 */
+.tabs.tabs-01 .tab{border-color:#f93a1d; color:#f93a1d;}
+.tabs.tabs-01 .tab.active, .tabs.tabs-01 .tab:hover{background:#f93a1d; color:#ffffff;}
+
+
+/* Topnav */
+nav.topnav .topnav-wrapper .topnav-top .options .option:nth-child(1), 
+nav.topnav .topnav-wrapper .topnav-top .options .option:nth-child(2),
+nav.topnav .topnav-wrapper .topnav-top .options .option:nth-child(3){background:#c2c6c7;}
+nav.topnav .topnav-wrapper .topnav-top .options .option:nth-child(4){background:#9da0a5;}
+nav.topnav .topnav-wrapper .topnav-top .options .option:nth-child(5){background:#808183;}
+nav.topnav .topnav-wrapper .topnav-top .options .option:last-child{background:#14206a;}
+nav.topnav .hamburger > *{background:#ffffff;}
+nav.topnav .topnav-wrapper .topnav-top .search-container input{background:#9da0a5;}
+nav.topnav .topnav-wrapper .topnav-bottom .menu-container .menu>*:first-child{color:#ffffff;}
+nav.topnav .submenu-dropdown{background:#ffffff;}
+nav.topnav > .submenu-dropdown{border-color:#808183;}
+
+
+/* Footer */
+nav.footer .socials .wrapper .social{border-color:#f93a1d; color:#f93a1d;}
+nav.footer .socials .wrapper .social:hover{background:#f93a1d; color:#ffffff;}
+nav.footer .panel-right .menu-container .menu .icon{color:#f93a1d;}
+nav.footer .panel-right .menu-container .menu .title{color:#cccccc;}

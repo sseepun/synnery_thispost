@@ -1,4 +1,4 @@
-<nav class="footer">
+<nav class="footer" data-aos="fade-in" data-aos-delay="0">
   <div class="footer-top">
     <div class="swiper">
       <div class="swiper-wrapper">
@@ -16,6 +16,7 @@
               <div class="wrapper">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('<?php echo $d['img'];?>');"></div>
+                  <div class="ss-card-shine"></div>
                 </div>
                 <div class="tag bg-p color-white">
                   <h6 class="fw-400"><?php echo $d['title'];?></h6>
@@ -57,12 +58,143 @@
           </a>
         </div>
         <h6 class="fw-500 color-t mt-3 mb-3">บริษัท ไปรษณีย์ไทย จำกัด - สำนักงานใหญ่</h6>
-        <h3 class="fw-400">TO DO</h3>
+        <div class="contact-lists">
+          <div class="contact-item">
+            <div class="icon color-p">
+              <em class="fa-solid fa-location-dot"></em>
+            </div>
+            <div class="text">
+              <p>111 ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กทม. 10210-0299</p>
+            </div>
+          </div>
+          <div class="d-flex ai-center fw-wrap">
+            <div class="contact-item">
+              <div class="icon color-p">
+                <em class="fa-solid fa-phone"></em>
+              </div>
+              <div class="text">
+                <p>โทรศัพท์ : <span class="p color-t fw-400">0 2831 3131</span> <span class="p xs-d-none">หรือ</span> </p>
+              </div>
+            </div>
+            <div class="contact-item ml-1 ml-unset">
+              <div class="icon color-p">
+                <em class="fa-solid fa-fax"></em>
+              </div>
+              <div class="text">
+              <p>โทรสาร : <span class="p color-t fw-400">0 2831 3550-1</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon color-p">
+              <em class="fa-solid fa-envelope"></em>
+            </div>
+            <div class="text">
+              <p>E-mail : <span class="p color-t fw-400">postalcare@thailandpost.co.th</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="socials mt-4">
+          <div class="wrapper">
+            <a href="#" class="social"><em class="fa-brands fa-facebook-f"></em></a>
+            <a href="#" class="social"><em class="fa-brands fa-twitter"></em></a>
+            <a href="#" class="social"><em class="fa-brands fa-youtube"></em></a>
+            <a href="#" class="social"><em class="fa-brands fa-instagram"></em></a>
+            <a href="#" class="social"><em class="fa-brands fa-line"></em></a>
+            <a href="#" class="social"><em class="fa-brands fa-facebook-messenger"></em></a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="panel-right">
       <div class="wrapper bg-t color-white">
-        <h3 class="fw-400">TO DO</h3>
+        <div class="grids">
+          <div class="grid lg-1-3 md-1-3 mt-0">
+            <h6 class="color-white fw-400">ไปรษณีย์ไทย</h6>
+            <div class="menu-container">
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">ประวัติกิจการไปรษณีย์ไทย</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">วิสัยทัศน์ พันธกิจ ค่านิยมและวัฒนธรรม</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">องค์กร</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">ทิศทางการดำเนินงานของ ปณท</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">โครงสร้างองค์กร</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">คณะกรรมการ</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">ผู้บริหาร</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">เครือข่ายไปรษณีย์</a>
+              </div>
+            </div>
+          </div>  
+          <div class="grid lg-1-3 md-1-3 mt-0">
+            <h6 class="color-white fw-400">สินค้าและบริการ</h6>
+            <div class="menu-container">
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">บริการส่งพัสดุในประเทศ</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">บริการส่งพัสดุต่างประเทศ</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">บริการขนส่งพิเศษ</a>
+              </div>
+            </div>
+            <a href="#" class="h6 d-block color-white fw-400 mt-3">คำถามที่พบบ่อย</a>
+          </div>
+          <div class="grid lg-1-3 md-1-3 mt-0">
+            <h6 class="color-white fw-400">ข่าวจากไปรษณีย์ไทย</h6>
+            <div class="menu-container">
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">ข่าวประชาสัมพันธ์</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">ข่าวจัดซื้อจัดจ้าง</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">สมัครงาน - ประกาศ</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">สื่อเผยแพร่</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">ลิงก์ที่เกี่ยวข้อง</a>
+              </div>
+              <div class="menu">
+                <div class="icon"><em class="fa-solid fa-play"></em></div>
+                <a href="#" class="p title">ศูนย์ข้อมูลข่าวสาร</a>
+              </div>
+            </div>
+            <p>CALL CENTER : <span class="color-p h2 fw-500">1545</span></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

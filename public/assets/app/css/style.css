@@ -26,6 +26,11 @@ button, .btn{
 }
 
 
+/* Animation */
+@-webkit-keyframes shine {100% {left: 125%;}}
+@keyframes shine {100% {left: 125%;}}
+
+
 /* Scrollbar */
 ::-webkit-scrollbar{width:5px; border-radius:.25rem;}
 ::-webkit-scrollbar-thumb{border-radius:.25rem;}
@@ -79,11 +84,14 @@ section{width:100%; overflow:hidden;}
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .p, li{
     margin:0; font-weight:300; line-height:1.15;
 }
+h2, .h2{font-size:3.625rem;}
 h3, .h3{font-size:3rem;}
 h5, .h5{font-size:1.75rem;}
 h6, .h6{font-size:1.5rem;}
 p, .p{font-size:1.3125rem;}
 p.sm, .p.sm{font-size:1.1875rem;}
+p.xs, .p.xs, li.xs, label.xs{font-size:1.25rem;}
+p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.9375rem;}
 @media screen and (max-width:1199.98px){
 }
 @media screen and (max-width:991.98px){
@@ -120,11 +128,11 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 /* Hamburger */
 .hamburger{cursor:pointer;}
 .hamburger > *{
-    width:1.625rem; height:.125rem; transform:translateX(.375rem); transition:all .45s;
+    width:1rem; height:.125rem; transform:translateX(.375rem); transition:all .45s;
 }
-.hamburger > *:nth-child(2){margin:.4375rem 0; width:2rem; transform:none;}
+.hamburger > *:nth-child(2){margin:.25rem 0; width:1.375rem; transform:none;}
 .hamburger.active > *:nth-child(1){
-    width:2rem; -webkit-transform:rotate(-45deg)translate(-.4rem, .4rem);
+    width:1.375rem; -webkit-transform:rotate(-45deg)translate(-.4rem, .4rem);
     transform:rotate(-45deg)translate(-.4rem, .4rem);
 }
 .hamburger.active > *:nth-child(2){opacity:0; transform:translateX(2rem);}
@@ -158,6 +166,19 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 .ss-card-01 .title{-webkit-line-clamp:1;}
 .ss-card-01 .desc{-webkit-line-clamp:2; height:2.75rem;}
 
+/* Special Card 02 */
+.ss-card-02 .ss-img{border-radius:4%;}
+.ss-card-02 .text-container .title{-webkit-line-clamp:4; min-height:6.1875rem;}
+.ss-card-02 .tag{
+    position:absolute; top:.5rem; left:0;
+    min-width:5rem; white-space:nowrap;
+    clip-path:polygon(0 0,100% 0,calc(100% - 1.5rem) 100%,0 100%);
+    padding:.5rem 1.75rem .25rem 1rem;
+}
+@media screen and (max-width:575.98px){
+    .ss-card-02 .text-container .title{min-height:0;}
+}
+
 
 /* Special Header */
 .ss-header{display:flex;}
@@ -184,6 +205,24 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 .ss-img .hover-container .icon.md{display:block; width:3rem;}
 .ss-img .hover-container .icon > img{display:block; width:100%; height:auto;}
 .ss-img .hover-container .icon > em{position:relative; z-index:2; font-size:3.5rem;}
+
+
+/* Special Stat */
+.ss-stats{
+    width:100%; display:flex; flex-wrap:wrap; margin:.25rem 0 0 0;
+}
+.ss-stats .stat{
+    display:flex; align-items:center; white-space:nowrap; margin:.1875rem 1.25rem 0 0;
+    font-size:.875rem; font-weight:400; transition:color .25s;
+}
+.ss-stats .stat .title{font-size:.875rem;}
+.ss-stats .stat .icon{
+    display:flex; align-items:center; font-size:.8125rem;
+    justify-content:start; width:1.25rem; height:1.25rem;
+}
+.ss-stats .stat .icon img{
+    display:block; width:.875rem; height:auto;
+}
 
 
 /* Table */

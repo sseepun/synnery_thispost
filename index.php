@@ -5,10 +5,30 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <img class="img" src="public/assets/app/images/banner/01.jpg" alt="Banner" />
-  <h3 class="fw-400">TO DO</h3>
+<?php include_once('layout/topnav.php'); ?>
 
-  <section class="section-01 ovf-unset bshadow-02">
+<?php 
+    $banner = [
+      ['imgBg' => 'public/assets/app/images/banner/01.jpg'],
+      ['imgBg' => 'public/assets/app/images/banner/01.jpg'],
+      ['imgBg' => 'public/assets/app/images/banner/01.jpg'],
+    ]
+  ?>
+  <div class="banner-01">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <?php foreach($banner as $d) {?>
+          <div class="swiper-slide">
+            <div class="wrapper">
+              <div class="img-bg" style="background-image:url('<?= $d['imgBg'] ?>');"></div>
+            </div>
+          </div>
+        <?php } ?>
+      </div>
+    </div>
+  </div>
+
+  <section class="section-01 ovf-unset bshadow-02" data-aos="fade-in" data-aos-delay="0">
     <div class="services">
       <a class="service bg-gray-03 color-white" href="#">
         <div class="icon">
@@ -61,7 +81,7 @@
     </div>
   </section>
   
-  <section class="section-02 section-padding">
+  <section class="section-02 section-padding" data-aos="fade-up" data-aos-delay="150">
     <div class="container">
       <div class="panel-left show-tablet">
         <div>
@@ -139,14 +159,20 @@
                 </div>
               <?php }}?>
             </div>
-            <h3 class="fw-400">TO DO</h3>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section-03 section-padding bg-gray-05">
+  <?php 
+     $tabs01 = [
+      ['title' => 'ข่าวประชาสัมพันธ์'], 
+      ['title' => 'ข่าวโปรโมท'], 
+    ];
+  ?>
+  <section class="section-03 section-padding bg-gray-05 tab-container" data-aos="fade-up" data-aos-delay="300">
     <div class="container">
       <div class="panel-header">
         <div>
@@ -162,7 +188,68 @@
           </a>
         </div>
       </div>
-      <h3 class="fw-400">TO DO</h3>
+      <div class="tabs tabs-01">
+        <?php foreach($tabs01 as $i=>$d) {?>
+          <div class="tab mt-2 <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+            <p class="title fw-400"><?= $d['title'] ?></p>
+          </div>
+        <?php } ?>
+      </div>
+      <div class="tab-contents mt-1">
+        <?php foreach($tabs01 as $i=>$k){?>
+          <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+            <div class="swiper mt-4">
+              <div class="swiper-wrapper">
+                <?php
+                  foreach([
+                    [
+                      'img' => 'public/assets/app/images/content/01.jpg', 'href' => '#',
+                      'title' => 'ไปรษณีย์ไทยร่วมพันธมิตร ดันโปรเจกต์คัดแยกขยะ เชิญชวนนำพลาสติก PP มารีไซเคิลเป็นกล่องสีน้ำ 5,000 ชุด มอบให้น้องๆ รร. ตชด.',
+                      'date' => '5 สิงหาคม 2567'
+                    ], [
+                      'img' => 'public/assets/app/images/content/02.jpg', 'href' => '#',
+                      'title' => 'ไปรษณีย์ไทยเอาใจคนส่งสุขไปนอกจัดเต็ม “Courier One Price” ส่งด่วนพรีเมียม ราคาสุดคุ้ม เหมาจ่าย จุได้ถึง 25 กก.',
+                      'date' => '5 สิงหาคม 2567'
+                    ], [
+                      'img' => 'public/assets/app/images/content/03.jpg', 'href' => '#',
+                      'title' => 'รมว.ดีอี ตรวจความพร้อมจุดบริการยืนยันตัวตนดิจิทัลวอลเล็ต',
+                      'date' => '1 สิงหาคม 2567'
+                    ], [
+                      'img' => 'public/assets/app/images/content/04.jpg', 'href' => '#',
+                      'title' => 'ดีอี - ไปรษณีย์ไทยเปิดจุดลงทะเบียนโครงการดิจิทัลวอลเล็ตในไปรษณีย์ 1,200 แห่ง เพิ่มความสะดวกประชาชน พร้อมให้คำ',
+                      'date' => '1 สิงหาคม 2567'
+                    ],
+                  ] as $i=>$d){
+                ?>
+                  <div class="swiper-slide">
+                    <a href="<?= $d['href'] ?>" class="ss-card ss-card-02">
+                      <div class="ss-img square">
+                        <div class="img-bg" style="background-image:url('<?= $d['img'] ?>');"></div>
+                        <div class="tag bg-p color-white">
+                          <h6 class="fw-400">News</h6>
+                        </div>
+                      </div>
+                      <div class="text-container pt-4">
+                        <h6 class="title fw-500 lh-sm color-t"><?= $d['title'] ?></h6>
+                        <div class="ss-stats">
+                          <div class="stat">
+                            <div class="icon color-p">
+                              <em class="fa-regular fa-clock"></em>
+                            </div>
+                            <div class="text color-gray-06">
+                              <p class="sm"><?= $d['date'] ?></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                <?php }?>
+              </div>
+            </div>
+          </div>
+        <?php } ?>
+      </div>
     </div>
   </section>
   
