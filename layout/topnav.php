@@ -16,7 +16,7 @@
     </div>';
 ?>
 
-<nav class="topnav bg-white bshadow-01">
+<nav class="topnav bg-white bshadow-03">
   <div class="topnav-wrapper">
     <div class="panel-left">
       <div class="logo-container">

@@ -65,6 +65,7 @@ input::placeholder{color:#666666;}
 /* Box Shadow */
 .bshadow-01{box-shadow:rgba(145,158,171,.16) 0px 8px 16px!important;}
 .bshadow-02{box-shadow:rgba(145,158,171,.5) 0px 8px 16px!important;}
+.bshadow-03{box-shadow:rgba(0,0,0,.16) 0px 8px 16px!important;}
 
 
 /* Section 02 */

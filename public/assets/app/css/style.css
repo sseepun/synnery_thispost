@@ -171,10 +171,20 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 
 /* Special Card 02 */
 .ss-card-02 .ss-img{border-radius:4%;}
+.ss-card-02 .ss-img::after{
+    position:absolute; top:0; left:-75%; z-index:2; display:block;
+    content:''; width:50%; height:100%; 
+    background:-webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    background:linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    transform:skewX(-25deg); transform:skewX(-25deg);
+}
+.ss-card-02:hover .ss-img:after{
+    -webkit-animation:shine .75s; animation:shine .75s; pointer-events:none;
+}
 .ss-card-02 .text-container .title{-webkit-line-clamp:4; min-height:6.1875rem;}
 .ss-card-02 .tag{
     position:absolute; top:.5rem; left:0;
-    min-width:5rem; white-space:nowrap;
+    min-width:5rem; white-space:nowrap; overflow:hidden;
     clip-path:polygon(0 0,100% 0,calc(100% - 1.5rem) 100%,0 100%);
     padding:.5rem 1.75rem .25rem 1rem;
 }
@@ -193,7 +203,7 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 .ss-img.square{padding:100% 0 0 0;}
 .ss-img > .img-bg{
     position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
-    background-position:center; transition:transform .3s;
+    background-position:center; background-repeat:no-repeat; transition:transform .3s;
 }
 .ss-img:hover > .img-bg, .ss-card:hover .ss-img > .img-bg{transform:scale(1.1);}
 .ss-img.no-hover > .img-bg, .ss-card .ss-img.no-hover > .img-bg{transform:none!important;}
