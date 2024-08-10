@@ -1,0 +1,120 @@
+/* Reset */
+html, body{background:#000000; color:#ffffff;}
+img, .img-bg, .hero, .section-bg, .img-fill, .pattern, iframe, .ss-card-18{filter:grayscale(1)!important;}
+.pattern-theme-none{display:none;}
+
+
+/* Colors */
+.color-p, 
+.color-s, 
+.color-t, 
+.color-white,
+.color-black, 
+.color-dark, 
+.color-gray, 
+.color-sgray{color:#ffffff!important;}
+.color-white-theme{color:#ffffff!important;}
+.color-black-theme{color:#000000!important;}
+
+
+.bg-p, 
+.bg-s, 
+.bg-t, 
+.bg-white, 
+.bg-black, 
+.bg-dark, 
+.bg-gray, 
+.bg-sgray{background:#000000!important;}
+
+.bg-white-theme{background:#ffffff!important;}
+.bg-black-theme{background:#000000!important;}
+
+
+.bcolor-p, 
+.bcolor-s, 
+.bcolor-t 
+.bcolor-white,
+.bcolor-black,
+.bcolor-dark, 
+.bcolor-gray, 
+.bcolor-sgray,
+.bcolor-01{border-color:#ffffff!important;}
+
+.bcolor-white-theme{border-color:#ffffff!important;}
+.bcolor-black-theme{border-color:#000000!important;}
+
+.btn.btn-t, .btn.btn-t:focus{border-color:#ffffff;}
+
+
+/* Section 01 */
+.section-01 .services{border-top:1px solid #ffffff; border-bottom:1px solid #ffffff;}
+.section-01 .service:not(:last-child){border-color:#ffffff;}
+
+/* @media screen and (max-width:767.98px){
+  .section-01 .service{border-color:#ffffff;}
+} */
+
+/* Section 02 */
+.section-02 .panel-right .swiper-pagination .swiper-pagination-bullet-active{background:#ffffff;}
+.section-02 .panel-right .swiper-pagination .swiper-pagination-bullet{background:#ffffff;}
+
+
+/* Special Card 01 */
+.ss-card-01 .text-wrapper{border-color:#ffffff;}
+
+
+/* Tab 01 */
+.tabs.tabs-01 .tab{border-color:#ffffff; color:#ffffff;}
+.tabs.tabs-01 .tab.active, .tabs.tabs-01 .tab:hover{background:#ffffff; color:#000000;}
+
+
+/* Topnav */
+nav.topnav .hamburger > *{background:#ffffff;}
+nav.topnav .topnav-wrapper .topnav-top .options .option:nth-child(1),
+nav.topnav .topnav-wrapper .topnav-top .options .option:nth-child(2){border-color:#ffffff!important;}
+nav.topnav .topnav-wrapper .topnav-top .options .option:nth-child(4),
+nav.topnav .topnav-wrapper .topnav-top .options .option:nth-child(5),
+nav.topnav .topnav-wrapper .topnav-top .options .option:nth-child(6){border-color:#ffffff!important;}
+nav.topnav .topnav-wrapper .topnav-bottom{border-color:#ffffff;}
+nav.topnav .submenu > *:first-child{background:#000000;}
+nav.topnav .submenu:hover > *:first-child {background:#ffffff; color:#000000;}
+nav.topnav .submenu:not(:last-child){border-color:#ffffff;}
+nav.topnav .topnav-wrapper .topnav-top .options .option .flag-dropdown .flag-item{background:#000000;}
+nav.topnav .topnav-wrapper .topnav-top .options .option .flag-dropdown .flag-item.active, 
+nav.topnav .topnav-wrapper .topnav-top .options .option .flag-dropdown .flag-item:hover{background:#ffffff;}
+nav.topnav .topnav-wrapper .topnav-top .options .option .flag-dropdown .flag-item.active .title, 
+nav.topnav .topnav-wrapper .topnav-top .options .option .flag-dropdown .flag-item:hover .title {color:#000000!important;}
+
+
+/* Sidenav */
+nav.sidenav{background:#000000; border-left:1px solid rgba(255,255,255,.3);}
+nav.sidenav .hamburger > *{background:#ffffff;}
+nav.sidenav .sidenav-toggle, nav.sidenav .options, 
+nav.sidenav .options > .option, nav.sidenav .options > .option-btn,
+nav.sidenav .option > .dropdown, nav.sidenav .option > .dropdown > *, nav.sidenav .scroll-wrapper, 
+nav.sidenav .menu > *:first-child{border-color:rgba(255,255,255,.3);}
+nav.sidenav .submenu > *:first-child{border-color:rgba(255,255,255,.3);}
+nav.sidenav .option > .dropdown{background:#000000;}
+nav.sidenav .menu > *:first-child{color:#ffffff;}
+nav.sidenav .menu:hover > *:first-child{color:#000000; background:#ffffff;}
+nav.sidenav .menu:hover .dropdown-toggle > em{color:#000000;}
+nav.sidenav .submenu > *:first-child{color:#ffffff; background:#000000;}
+nav.sidenav .submenu .submenu > *:first-child{background:#000000; color:#ffffff;}
+nav.sidenav .submenu:hover > *:first-child{color:#000000; background:#ffffff;}
+nav.sidenav .dropdown-toggle{color:#ffffff;}
+nav.topnav .option > .dropdown .flag-wrapper:hover{background:#ffffff;}
+nav.sidenav .options > .option-btn:hover > a{color:#ffffff;}
+
+
+/* Footer */
+nav.footer .footer-middle,
+nav.footer .footer-middle .panel-left,
+nav.footer .footer-middle .panel-right,
+nav.footer .footer-body .panel-right,
+nav.footer .footer-bottom{border-color:#ffffff;}
+nav.footer .socials .wrapper .social{border-color:#ffffff; color:#ffffff;}
+nav.footer .socials .wrapper .social:hover{background:#ffffff; color:#000000;}
+
+
+/* Chat */
+nav.chat{background:#ffffff;}

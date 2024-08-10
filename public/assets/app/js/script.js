@@ -1,5 +1,47 @@
 $(function(){ 'use strict';
 
+   // Topnav
+   var topnav = $('nav.topnav');
+   var sidenav = $('nav.sidenav'),
+       sidenavMenus = sidenav.find('.menu-container'),
+       sidenavToggle = $('nav .sidenav-toggle');
+
+   if(topnav.length){
+       // Generate Sidenav
+       sidenavMenus.html( topnav.find('#topnav-menu').html() );
+       sidenavMenus.find('em').remove();
+       sidenavMenus.find('.num, .title, .submenu-title').remove();
+       sidenavMenus.find('.has-children').each(function(){
+           $(this).append('<div class="dropdown-toggle"><em class="fas fa-chevron-right"></em></div>');
+       });
+       sidenavMenus.find('.dropdown-toggle').click(function(e){
+           e.preventDefault();
+           var self = $(this);
+           self.toggleClass('active');
+           self.prev().slideToggle();
+       });
+   }
+
+   // Sidenav Toggle
+   sidenavToggle.click(function(e){
+       e.preventDefault();
+       if($('body').hasClass('sidenav-opened')){
+           $('html, body').removeClass('sidenav-opened');
+           sidenavToggle.find('> *').removeClass('active');
+           sidenav.removeClass('active');
+       }else{
+           $('html, body').addClass('sidenav-opened');
+           sidenavToggle.find('> *').addClass('active');
+           sidenav.addClass('active');
+       }
+   });
+   $('.sidenav-filter').click(function(e){
+       e.preventDefault();
+       $('html, body').removeClass('sidenav-opened');
+       sidenavToggle.find('> *').removeClass('active');
+       sidenav.removeClass('active');
+   });
+
 
   // Banner 01
   if($('.banner-01 .swiper').length){
@@ -38,6 +80,25 @@ $(function(){ 'use strict';
       },
     });
   }
+
+
+  // Font Sizes
+  var bodySize = 16,
+  fontsizeBtns = $('.font-size-btn');
+  fontsizeBtns.click(function(e){
+   e.preventDefault();
+   var self = $(this);
+   var s = Number(self.data('size'));
+   if(s==0) bodySize = 16;
+   else if(s==1 || s==-1) bodySize += s;
+   else bodySize = s;
+   $('html, body').css('font-size', bodySize+'px');
+
+   if(self.hasClass('option')){
+       fontsizeBtns.removeClass('active');
+       self.addClass('active');
+   }
+  });
 
 
   // Footer
@@ -81,7 +142,20 @@ $(function(){ 'use strict';
             }
         });
     });
-   }
+  }
+
+  // Themes
+  var themeBtns = $('.theme-btn');
+  themeBtns.click(function(e){
+    e.preventDefault();
+    var self = $(this);
+    $('#css-theme').attr('href', 'public/assets/app/css/color-'+$(this).data('theme')+'.css');
+    $('body').removeClass('theme-0 theme-1 theme-2');
+    $('body').addClass('theme-'+self.data('theme'));
+       
+    themeBtns.removeClass('active');
+    themeBtns.filter('[data-theme="'+self.data('theme')+'"]').addClass('active');
+   });
 
 
   // Page Loader

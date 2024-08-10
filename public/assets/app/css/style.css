@@ -137,8 +137,8 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 }
 .hamburger.active > *:nth-child(2){opacity:0; transform:translateX(2rem);}
 .hamburger.active > *:nth-child(3){
-    width:2rem; -webkit-transform:rotate(45deg)translate(-.4rem,-.4rem);
-    transform:rotate(45deg)translate(-.4rem, -.4rem);
+    width:1.375rem; -webkit-transform:rotate(45deg)translate(-.1rem,-.2rem);
+    transform:rotate(45deg)translate(-.1rem, -.2rem);
 }
 
 
@@ -162,7 +162,10 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 .ss-card-01 .img-wrapper img{
     display:block; position:absolute; bottom:0; left:0; width:100%; height:auto;
 }
-.ss-card-01 .text-wrapper{display:block; width:100%; padding:1rem;}
+.ss-card-01 .text-wrapper{
+    display:block; width:100%; padding:1rem; border-radius:0 0 4% 4%;
+    border:1px solid transparent; border-top:0;
+}
 .ss-card-01 .title{-webkit-line-clamp:1;}
 .ss-card-01 .desc{-webkit-line-clamp:2; height:2.75rem;}
 
