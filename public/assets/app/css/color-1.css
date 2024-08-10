@@ -43,6 +43,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, iframe, .ss-card-18{filte
 .bcolor-white-theme{border-color:#ffffff!important;}
 .bcolor-black-theme{border-color:#000000!important;}
 
+.btn.btn-p, .btn.btn-p:focus{border-color:#ffffff;}
 .btn.btn-t, .btn.btn-t:focus{border-color:#ffffff;}
 
 

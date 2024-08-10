@@ -44,6 +44,7 @@ img.topic-img, img.stopnav-logo-img, .pattern.not-gray, img.palace-img{filter:un
 .bcolor-white-theme{border-color:#fecb00!important;}
 .bcolor-black-theme{border-color:#000000!important;}
 
+.btn.btn-p, .btn.btn-p:focus{border-color:#fecb00;}
 .btn.btn-t, .btn.btn-t:focus{border-color:#fecb00;}
 
 
