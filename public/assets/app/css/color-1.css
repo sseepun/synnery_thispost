@@ -46,6 +46,12 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, iframe, .ss-card-18{filte
 .btn.btn-t, .btn.btn-t:focus{border-color:#ffffff;}
 
 
+input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
+input[type=number], input[type=phone], input[type=submit], input[type=file], select, textarea{
+    color:#000000; background:#ffffff; border-color:#ffffff;
+}
+
+
 /* Section 01 */
 .section-01 .services{border-top:1px solid #ffffff; border-bottom:1px solid #ffffff;}
 .section-01 .service:not(:last-child){border-color:#ffffff;}

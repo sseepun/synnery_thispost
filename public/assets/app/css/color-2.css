@@ -47,6 +47,12 @@ img.topic-img, img.stopnav-logo-img, .pattern.not-gray, img.palace-img{filter:un
 .btn.btn-t, .btn.btn-t:focus{border-color:#fecb00;}
 
 
+input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
+input[type=number], input[type=phone], input[type=submit], input[type=file], select, textarea{
+    color:#000000; background:#fecb00; border-color:#fecb00;
+}
+
+
 /* Section 01 */
 .section-01 .services{border-top:1px solid #ffff00; border-bottom:1px solid #ffff00;}
 .section-01 .service:not(:last-child){border-color:#ffff00;}
