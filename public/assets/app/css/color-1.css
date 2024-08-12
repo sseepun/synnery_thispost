@@ -53,18 +53,9 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 }
 
 
-/* Section 01 */
-.section-01 .services{border-top:1px solid #ffffff; border-bottom:1px solid #ffffff;}
-.section-01 .service:not(:last-child){border-color:#ffffff;}
-
-/* @media screen and (max-width:767.98px){
-  .section-01 .service{border-color:#ffffff;}
-} */
-
-/* Section 02 */
-.section-02 .panel-right .swiper-pagination .swiper-pagination-bullet-active{background:#ffffff;}
-.section-02 .panel-right .swiper-pagination .swiper-pagination-bullet{background:#ffffff;}
-
+/* Special Card */
+.ss-card .line-1::before, .ss-card .line-1::after,
+.ss-card .line-2::before, .ss-card .line-2::after{background:#ffffff;}
 
 /* Special Card 01 */
 .ss-card-01 .text-wrapper{border-color:#ffffff;}
@@ -119,9 +110,19 @@ nav.footer .footer-middle .panel-left,
 nav.footer .footer-middle .panel-right,
 nav.footer .footer-body .panel-right,
 nav.footer .footer-bottom{border-color:#ffffff;}
-nav.footer .socials .wrapper .social{border-color:#ffffff; color:#ffffff;}
-nav.footer .socials .wrapper .social:hover{background:#ffffff; color:#000000;}
+nav.footer .social .front{border-color:#ffffff; background:#000000; color:#ffffff;}
+nav.footer .social .back{border-color:#ffffff; background:#ffffff; color:#000000;}
 
 
 /* Chat */
 nav.chat{background:#ffffff;}
+
+
+/* Section 01 */
+.section-01 .services{border-top:1px solid #ffffff; border-bottom:1px solid #ffffff;}
+.section-01 .service:not(:last-child){border-color:#ffffff;}
+
+
+/* Section 02 */
+.section-02 .panel-right .swiper-pagination .swiper-pagination-bullet-active{background:#ffffff;}
+.section-02 .panel-right .swiper-pagination .swiper-pagination-bullet{background:#ffffff;}

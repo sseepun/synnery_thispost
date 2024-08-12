@@ -155,6 +155,28 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
     -webkit-box-orient:vertical; transition:color .25s;
 }
 
+.ss-card .hover-filter{
+    position:absolute; top:0; bottom:0; left:0; right:0; pointer-events:none;
+    background:rgba(0,0,0,.6); opacity:0; transition:opacity .3s;
+}
+.ss-card:hover .hover-filter{opacity:1;}
+
+.ss-card .line-1, .ss-card .line-2{pointer-events:none;}
+.ss-card .line-1::before, .ss-card .line-1::after,
+.ss-card .line-2::before, .ss-card .line-2::after{
+    content:''; position:absolute; z-index:3;
+}
+.ss-card .line-1::before, .ss-card .line-1::after{
+    left:50%; height:4px; width:0; transition:left .5s, width .5s;
+}
+.ss-card .line-1::before{top:0;} .ss-card .line-1::after{bottom:0;}
+.ss-card:hover .line-1::before, .ss-card:hover .line-1::after{left:0; width:100%;}
+.ss-card .line-2::before, .ss-card .line-2::after{
+    top:50%; width:4px; height:0; transition:top .5s, height .5s;
+}
+.ss-card .line-2::before{left:0;} .ss-card .line-2::after{right:0;}
+.ss-card:hover .line-2::before, .ss-card:hover .line-2::after{top:0; height:100%;}
+
 /* Special Card 01 */
 .ss-card-01{width:100%; padding:16% 0 1rem 0;}
 .ss-card-01 > .wrapper{display:block; width:100%; border-radius:4%;}
