@@ -123,47 +123,7 @@
               <div class="back"><em class="fa-brands fa-facebook-messenger"></em></div>
             </a>
           </div>
-          <div class="hex-icon">
-            <a class="hex hex-ig" href="https://www.instagram.com/lifeatsynerry/" target="_blank">
-              <div class="wrapper"><em class="fa-brands fa-twitter"></em></div>
-            </a>
-            <a class="hex hex-ig hex-back" href="https://www.instagram.com/lifeatsynerry/" target="_blank">
-              <div class="wrapper"><em class="fa-brands fa-twitter"></em></div>
-            </a>
-          </div>
-          <div class="hex-icon">
-            <a class="hex hex-yt" href="https://www.youtube.com/channel/UCJMXUE5qQiTcWwicqpHmPLg" target="_blank">
-              <div class="wrapper"><em class="fa-brands fa-youtube"></em></div>
-            </a>
-            <a class="hex hex-yt hex-back" href="https://www.youtube.com/channel/UCJMXUE5qQiTcWwicqpHmPLg" target="_blank">
-              <div class="wrapper"><em class="fa-brands fa-youtube"></em></div>
-            </a>
-          </div>
-        <div class="hex-icon">
-          <a class="hex hex-pr" href="https://www.pinterest.com/synerrylife/" target="_blank">
-            <div class="wrapper"><em class="fa-brands fa-instagram"></em></div>
-          </a>
-          <a class="hex hex-pr hex-back" href="https://www.pinterest.com/synerrylife/" target="_blank">
-            <div class="wrapper"><em class="fa-brands fa-instagram"></em></div>
-          </a>
         </div>
-        <div class="hex-icon">
-          <a class="hex hex-ln" href="https://www.linkedin.com/in/synerry-corporation-thailand-co-ltd/" target="_blank">
-            <div class="wrapper"><em class="fa-brands fa-line"></em></div>
-          </a>
-          <a class="hex hex-ln hex-back" href="https://www.linkedin.com/in/synerry-corporation-thailand-co-ltd/" target="_blank">
-            <div class="wrapper"><em class="fa-brands fa-line"></em></div>
-          </a>
-        </div>
-        <div class="hex-icon">
-          <a class="hex hex-ln" href="https://www.linkedin.com/in/synerry-corporation-thailand-co-ltd/" target="_blank">
-            <div class="wrapper"><em class="fa-brands fa-facebook-messenger"></em></div>
-          </a>
-          <a class="hex hex-ln hex-back" href="https://www.linkedin.com/in/synerry-corporation-thailand-co-ltd/" target="_blank">
-            <div class="wrapper"><em class="fa-brands fa-facebook-messenger"></em></div>
-          </a>
-        </div>
-      </div>
       </div>
     </div>
     <div class="panel-right">
