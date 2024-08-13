@@ -68,9 +68,16 @@ input::placeholder{color:#666666;}
 .bshadow-03{box-shadow:rgba(0,0,0,.16) 0px 8px 16px!important;}
 
 
-/* Special Card */
+/* Special Card Hover Filter */
+.ss-card .hover-filter{background:rgba(0,0,0,.7);}
+
+/* Special Card Hover Line  */
 .ss-card .line-1::before, .ss-card .line-1::after,
 .ss-card .line-2::before, .ss-card .line-2::after{background:#f93a1d;}
+.ss-card .line-3::before, .ss-card .line-3::after,
+.ss-card .line-4::before, .ss-card .line-4::after{background:white;}
+.ss-card .line-3.bg-p::before, .ss-card .line-3.bg-p::after,
+.ss-card .line-4.bg-p::before, .ss-card .line-4.bg-p::after{background:#f93a1d;}
 
 
 /* Tab 01 */
@@ -88,12 +95,18 @@ nav.topnav .topnav-wrapper .topnav-top .options .option:last-child{background:#1
 nav.topnav .hamburger > *{background:#ffffff;}
 nav.topnav .topnav-wrapper .topnav-top .search-container input{background:#9da0a5;}
 nav.topnav .topnav-wrapper .topnav-top .search-container input::placeholder{color:#ffffff;}
-nav.topnav .topnav-wrapper .topnav-bottom .menu-container .menu:hover{background:#ef371a}
+nav.topnav .topnav-wrapper .topnav-bottom .menu-container .menu:hover::before{background:#ffffff;}
+nav.topnav .topnav-wrapper .topnav-bottom .menu-container .menu:hover >*:first-child{color:#f93a1d!important;}
+
+
 nav.topnav .topnav-wrapper .topnav-bottom .menu-container .menu>*:first-child{color:#ffffff;}
-nav.topnav .submenu > *:first-child{background:#ffffff; color:#000000;}
-nav.topnav .submenu:hover > *:first-child{background:#ef371a; color:#ffffff;}
+nav.topnav .submenu{background:#ffffff;}
+nav.topnav .submenu > *:first-child{color:#000000;}
+nav.topnav .submenu:hover{color:#ffffff;}
+nav.topnav .submenu:hover > *:first-child{color:#ffffff;}
 nav.topnav .submenu:not(:last-child){border-color:#e9e9e9;}
 nav.topnav > .submenu-dropdown{border-color:#808183;}
+nav.topnav .submenu::after{background:#ef371a;}
 nav.topnav .topnav-wrapper .topnav-top .options .option .flag-dropdown .flag-item{background:#c2c6c7;}
 nav.topnav .topnav-wrapper .topnav-top .options .option .flag-dropdown .flag-item.active,
 nav.topnav .topnav-wrapper .topnav-top .options .option .flag-dropdown .flag-item:hover{background:#f93a1d;}
@@ -111,16 +124,23 @@ nav.sidenav .sidenav-toggle, nav.sidenav .options,
 nav.sidenav .options > .option, nav.sidenav .options > .option-btn,
 nav.sidenav .option > .dropdown, nav.sidenav .option > .dropdown > *, nav.sidenav .scroll-wrapper, 
 nav.sidenav .menu > *:first-child{border-color:#e1e1e1;}
-nav.sidenav .submenu > *:first-child{border-color:rgba(255,255,255,.3);}
+nav.sidenav .submenu > *:first-child{border-color:#e1e1e1;}
 nav.sidenav .option > .dropdown{background:#ffffff;}
 nav.sidenav .menu > *:first-child{color:#000000;}
-nav.sidenav .menu:hover > *:first-child{color:#f93a1d;}
+nav.sidenav .menu:hover > *:first-child,
+nav.sidenav .menu.active > *:first-child{color:#ffffff!important;}
+nav.sidenav .menu:hover::before, nav.sidenav .submenu:not(.level-2):hover::before,
+nav.sidenav .menu.active::before, nav.sidenav .submenu:not(.level-2).active::before{background:hsl(8, 95%, 55%);}
 nav.sidenav .submenu{color:#ffffff;}
 nav.sidenav .submenu .dropdown-toggle{color:#ffffff;}
-nav.sidenav .submenu > *:first-child{background:#f93a1d; color:#ffffff;}
-nav.sidenav .submenu .submenu > *:first-child{background:#14206a; color:#ffffff;}
-nav.sidenav .submenu:hover > *:first-child{color:#f9c816;}
+nav.sidenav .submenu:not(.level-2) > *:first-child{background:#14206a; color:#ffffff;}
+nav.sidenav .menu .submenu .submenu.level-2{background:#ffffff;}
+nav.sidenav .menu .submenu .submenu.level-2:hover::before{background:#c2c6c7;}
+nav.sidenav .menu .submenu .submenu.level-2:hover > *:first-child{color:#ffffff;}
+nav.sidenav .submenu:hover > *:first-child, nav.sidenav .submenu.active > *:first-child{color:#e6ff00d9;}
 nav.sidenav .dropdown-toggle{color:#232323;}
+nav.sidenav .menu:hover .dropdown-toggle, nav.sidenav .submenu:hover .dropdown-toggle,
+nav.sidenav .menu.active .dropdown-toggle, nav.sidenav .submenu.active .dropdown-toggle{color:#ffffff;}
 nav.sidenav .option > .dropdown .flag-wrapper:hover{background:#e1e1e1;}
 nav.sidenav .options > .option-btn:hover > a{color:#14206a;}
 

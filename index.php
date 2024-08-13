@@ -30,39 +30,47 @@
 
   <section class="section-01 ovf-unset bshadow-02" data-aos="fade-in" data-aos-delay="0">
     <div class="services">
-      <a class="service bg-gray-03 color-white" href="#">
+      <a class="service ss-card bg-gray-03 color-white" href="#">
         <div class="icon">
           <img src="public/assets/app/images/icon/calculator.svg" alt="Icon" />
         </div>
         <div class="text-center mt-2">
           <p class="sm fw-300 lh-xs">คำนวณอัตราค่าบริการ</p>
         </div>
+        <div class="line-3"></div>
+        <div class="line-4"></div>
       </a>
-      <a class="service bg-gray-02 color-white" href="#">
+      <a class="service ss-card bg-gray-02 color-white" href="#">
         <div class="icon">
           <img src="public/assets/app/images/icon/search.svg" alt="Icon" />
         </div>
         <div class="text-center mt-2">
           <p class="sm fw-300 lh-xs">ค้นหาที่ทำการไปรษณีย์</p>
         </div>
+        <div class="line-3"></div>
+        <div class="line-4"></div>
       </a>
-      <a class="service bg-p color-white" href="#">
+      <a class="service ss-card bg-p color-white" href="#">
         <div class="icon">
           <img src="public/assets/app/images/icon/protect.svg" alt="Icon" />
         </div>
         <div class="text-center mt-2">
           <p class="sm fw-300 lh-xs">การรับประกันและ<br />การชดใช้ค่าเสียหาย</p>
         </div>
+        <div class="line-3"></div>
+        <div class="line-4"></div>
       </a>
-      <a class="service bg-s color-white" href="#">
+      <a class="service ss-card bg-s color-white" href="#">
         <div class="icon">
           <img src="public/assets/app/images/icon/member.svg" alt="Icon" />
         </div>
         <div class="text-center mt-2">
           <p class="sm fw-300 lh-xs">สมัครสมาชิก<br />เช็คคะแนน POST Family</p>
         </div>
+        <div class="line-3"></div>
+        <div class="line-4"></div>
       </a>
-      <a class="service lg bg-t color-white" href="#">
+      <a class="service ss-card lg bg-t color-white" href="#">
         <div class="wrapper">
           <div class="d-flex ai-center w-full">
             <img src="public/assets/app/images/icon/target.svg" alt="Icon" 
@@ -77,6 +85,8 @@
             </button>
           </div>
         </div>
+        <div class="line-3"></div>
+        <div class="line-4"></div>
       </a>
     </div>
   </section>
@@ -142,10 +152,10 @@
                 <div class="swiper-slide">
                   <div class="ss-card ss-card-01 bg-white">
                     <div class="wrapper bshadow-01">
-                      <div class="img-wrapper">
+                      <div class="img-wrapper pos-relative">
                         <img src="<?= $d['img'] ?>" alt="Hero" />
                       </div>
-                      <div class="text-wrapper">
+                      <div class="text-wrapper pos-relative">
                         <h5 class="title fw-500 lh-sm color-t"><?= $d['title'] ?></h5>
                         <p class="desc sm fw-300 color-gray-01 mt-1"><?= $d['desc'] ?></p>
                         <div class="mt-2">
@@ -153,8 +163,12 @@
                             ดูรายละเอียด <em class="fa-solid fa-chevron-right text-xs"></em>
                           </a>
                         </div>
+                        <div class="line-3 bg-p"></div>
+                        <div class="line-4 bg-p"></div>
                       </div>
+ 
                     </div>
+                    
                   </div>
                 </div>
               <?php }}?>
@@ -228,9 +242,9 @@
                         <div class="tag bg-p color-white">
                           <h6 class="fw-400">News</h6>
                         </div>
-                        <div class="hover-filter"></div>
                         <div class="line-1"></div>
                         <div class="line-2"></div>
+                        <div class="hover-filter"></div>
                       </div>
                       <div class="text-container pt-4">
                         <h6 class="title fw-500 lh-sm color-t"><?= $d['title'] ?></h6>
