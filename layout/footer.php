@@ -14,9 +14,13 @@
           <div class="swiper-slide">
             <a class="highlight" href="<?php echo $d['href'];?>">
               <div class="wrapper">
-                <div class="ss-img">
-                  <div class="img-bg" style="background-image:url('<?php echo $d['img'];?>');"></div>
-                  <div class="ss-card-shine"></div>
+                <div class="ss-card">
+                  <div class="ss-img">
+                    <div class="img-bg" style="background-image:url('<?php echo $d['img'];?>');"></div>
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="hover-filter-01"></div>
+                  </div>
                 </div>
                 <div class="tag bg-p color-white">
                   <h6 class="fw-400"><?php echo $d['title'];?></h6>
@@ -94,16 +98,56 @@
             </div>
           </div>
         </div>
-        <div class="socials mt-4">
-          <div class="wrapper">
-            <a href="#" class="social"><em class="fa-brands fa-facebook-f"></em></a>
-            <a href="#" class="social"><em class="fa-brands fa-twitter"></em></a>
-            <a href="#" class="social"><em class="fa-brands fa-youtube"></em></a>
-            <a href="#" class="social"><em class="fa-brands fa-instagram"></em></a>
-            <a href="#" class="social"><em class="fa-brands fa-line"></em></a>
-            <a href="#" class="social"><em class="fa-brands fa-facebook-messenger"></em></a>
+        <div class="footer-socials d-flex ai-center pos-relative mt-4" style="z-index:2;">
+          <div class="hex-icon">
+            <a class="hex hex-fb ml-0" href="https://www.facebook.com/Synerry/" target="_blank">
+              <div class="wrapper"><em class="fa-brands fa-facebook-f"></em></div>
+            </a>
+            <a class="hex hex-fb hex-back ml-0" href="https://www.facebook.com/Synerry/" target="_blank">
+              <div class="wrapper"><em class="fa-brands fa-facebook-f"></em></div>
+            </a>
           </div>
+          <div class="hex-icon">
+            <a class="hex hex-ig" href="https://www.instagram.com/lifeatsynerry/" target="_blank">
+              <div class="wrapper"><em class="fa-brands fa-twitter"></em></div>
+            </a>
+            <a class="hex hex-ig hex-back" href="https://www.instagram.com/lifeatsynerry/" target="_blank">
+              <div class="wrapper"><em class="fa-brands fa-twitter"></em></div>
+            </a>
+          </div>
+          <div class="hex-icon">
+            <a class="hex hex-yt" href="https://www.youtube.com/channel/UCJMXUE5qQiTcWwicqpHmPLg" target="_blank">
+              <div class="wrapper"><em class="fa-brands fa-youtube"></em></div>
+            </a>
+            <a class="hex hex-yt hex-back" href="https://www.youtube.com/channel/UCJMXUE5qQiTcWwicqpHmPLg" target="_blank">
+              <div class="wrapper"><em class="fa-brands fa-youtube"></em></div>
+            </a>
+          </div>
+        <div class="hex-icon">
+          <a class="hex hex-pr" href="https://www.pinterest.com/synerrylife/" target="_blank">
+            <div class="wrapper"><em class="fa-brands fa-instagram"></em></div>
+          </a>
+          <a class="hex hex-pr hex-back" href="https://www.pinterest.com/synerrylife/" target="_blank">
+            <div class="wrapper"><em class="fa-brands fa-instagram"></em></div>
+          </a>
         </div>
+        <div class="hex-icon">
+          <a class="hex hex-ln" href="https://www.linkedin.com/in/synerry-corporation-thailand-co-ltd/" target="_blank">
+            <div class="wrapper"><em class="fa-brands fa-line"></em></div>
+          </a>
+          <a class="hex hex-ln hex-back" href="https://www.linkedin.com/in/synerry-corporation-thailand-co-ltd/" target="_blank">
+            <div class="wrapper"><em class="fa-brands fa-line"></em></div>
+          </a>
+        </div>
+        <div class="hex-icon">
+          <a class="hex hex-ln" href="https://www.linkedin.com/in/synerry-corporation-thailand-co-ltd/" target="_blank">
+            <div class="wrapper"><em class="fa-brands fa-facebook-messenger"></em></div>
+          </a>
+          <a class="hex hex-ln hex-back" href="https://www.linkedin.com/in/synerry-corporation-thailand-co-ltd/" target="_blank">
+            <div class="wrapper"><em class="fa-brands fa-facebook-messenger"></em></div>
+          </a>
+        </div>
+      </div>
       </div>
     </div>
     <div class="panel-right">

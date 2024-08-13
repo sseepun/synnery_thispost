@@ -1,11 +1,29 @@
 $(function(){ 'use strict';
 
   // Topnav
-  var topnav = $('nav.topnav');
+  var topnav = $('nav.topnav'),
+      topnavMenu = topnav.find('.menu-container > .menu');
   var sidenav = $('nav.sidenav'),
       sidenavMenus = sidenav.find('.menu-container'),
       sidenavToggle = $('nav .sidenav-toggle');
   if(topnav.length){
+    topnavMenu.mouseenter(function(e){
+      let self = $(this);
+      if(!self.hasClass('menu-active')){
+          let lastIndex = topnavMenu.filter('.menu-active').index();
+          let nowIndex = self.index();
+          if(nowIndex > lastIndex){
+              self.parent().removeClass('from-left');
+              self.parent().addClass('from-right');
+          }else{
+              self.parent().removeClass('from-right');
+              self.parent().addClass('from-left');
+          }
+      }
+      topnavMenu.removeClass('menu-active');
+      !self.addClass('menu-active');
+    });
+
     sidenavMenus.html( topnav.find('#topnav-menu').html() );
     sidenavMenus.find('em').remove();
     sidenavMenus.find('.num, .title, .submenu-title').remove();
@@ -16,6 +34,7 @@ $(function(){ 'use strict';
       e.preventDefault();
       var self = $(this);
       self.toggleClass('active');
+      self.parent().toggleClass('active');
       self.prev().slideToggle();
     });
   }
@@ -41,7 +60,7 @@ $(function(){ 'use strict';
   });
 
   
-    // Check on Scroll
+  // Check on Scroll
   function checkOnScroll(st){
     if(st > 100){
       topnav.addClass('sticky');
