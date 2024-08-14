@@ -244,7 +244,7 @@
                         </div>
                         <div class="line-1"></div>
                         <div class="line-2"></div>
-                        <div class="hover-filter-01"></div>
+                        <div class="hover-filter"></div>
                       </div>
                       <div class="text-container pt-4">
                         <h6 class="title fw-500 lh-sm color-t"><?= $d['title'] ?></h6>

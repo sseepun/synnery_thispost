@@ -139,9 +139,19 @@ nav.footer .footer-middle .panel-left,
 nav.footer .footer-middle .panel-right,
 nav.footer .footer-body .panel-right,
 nav.footer .footer-bottom{border-color:#ffffff;}
-nav.footer .socials .wrapper .social{border-color:#ffffff; color:#ffffff;}
-nav.footer .socials .wrapper .social:hover{background:#ffffff; color:#000000;}
+nav.footer .social .front{border-color:#ffffff; background:#000000; color:#ffffff;}
+nav.footer .social .back{border-color:#ffffff; background:#ffffff; color:#000000;}
 
 
 /* Chat */
 nav.chat{background:#ffffff;}
+
+
+/* Section 01 */
+.section-01 .services{border-top:1px solid #ffffff; border-bottom:1px solid #ffffff;}
+.section-01 .service:not(:last-child){border-color:#ffffff;}
+
+
+/* Section 02 */
+.section-02 .panel-right .swiper-pagination .swiper-pagination-bullet-active{background:#ffffff;}
+.section-02 .panel-right .swiper-pagination .swiper-pagination-bullet{background:#ffffff;}
