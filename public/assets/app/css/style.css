@@ -106,7 +106,14 @@ p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.9375rem;}
 }
 @media screen and (max-width:575.98px){
     p, .p{font-size:1.25rem;}
+    h1, .h1{font-size:4rem;}
+    h2, .h2{font-size:3rem;}
     h3, .h3{font-size:2.875rem;}
+}
+@media screen and (max-width:375.98px){
+    h1, .h1{font-size:3rem;}
+    h2, .h2{font-size:2.9375rem;}
+    h3, .h3{font-size:2.5rem;}
 }
 
 

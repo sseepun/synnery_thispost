@@ -51,6 +51,17 @@
     .banner-01 .swiper > .swiper-wrapper .swiper-slide .hero{width:60vw;}
     .banner-01 .swiper > .swiper-wrapper .swiper-slide .text-wrapper>.wrapper{margin:-8rem 0 0 0;}
 }
+@media screen and (max-width:575.98px){
+    .banner-01 .swiper > .swiper-wrapper .swiper-slide{height:calc(100dvh - 15rem);}
+    .banner-01 .swiper > .swiper-wrapper .swiper-slide .hero{width:60vw;}
+    .banner-01 .swiper > .swiper-wrapper .swiper-slide .text-wrapper>.wrapper{margin:-5rem 0 0 0;}
+}
+@media screen and (max-width:375.98px){
+    .banner-01 .swiper > .swiper-wrapper .swiper-slide{height:calc(100dvh - 21rem);}
+    .banner-01 .swiper > .swiper-wrapper .swiper-slide .hero{width:60vw;}
+    .banner-01 .swiper > .swiper-wrapper .swiper-slide .text-wrapper>.wrapper{margin:-1.5rem 0 0 0;}
+}
+
 
 .banner-01 .swiper-slide .animate{
     opacity:0; transform:translateY(4rem); transition:all ease-in-out .75s;
