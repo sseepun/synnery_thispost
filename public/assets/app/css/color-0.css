@@ -68,6 +68,29 @@ input::placeholder{color:#666666;}
 .bshadow-03{box-shadow:rgba(0,0,0,.16) 0px 8px 16px!important;}
 
 
+/* Hex */
+.hex::before{border-color:#f93a1d;}
+.hex.hex-back{color:#f93a1d!important;}
+.hex.hex-fb{color:#ffffff;}
+.hex.hex-fb > .wrapper{color:#f93a1d;}
+.hex.hex-fb.hex-back > .wrapper{color:#ffffff;}
+.hex.hex-ig{color:#ffffff;}
+.hex.hex-ig > .wrapper{color:#f93a1d;}
+.hex.hex-ig.hex-back > .wrapper{color:#ffffff;}
+.hex.hex-yt{color:#ffffff;}
+.hex.hex-yt > .wrapper{color:#f93a1d;}
+.hex.hex-yt.hex-back > .wrapper{color:#ffffff;}
+.hex.hex-pr{color:#ffffff;}
+.hex.hex-pr > .wrapper{color:#f93a1d;}
+.hex.hex-pr.hex-back > .wrapper{color:#ffffff;}
+.hex.hex-tw{color:#ffffff;}
+.hex.hex-tw > .wrapper{color:#f93a1d;}
+.hex.hex-tw.hex-back > .wrapper{color:#ffffff;}
+.hex.hex-ln{color:#ffffff;}
+.hex.hex-ln > .wrapper{color:#f93a1d;}
+.hex.hex-ln.hex-back > .wrapper{color:#ffffff;}
+
+
 /* Special Card Hover Filter 01 */
 .ss-card .hover-filter-01{background:rgba(0,0,0,.7);}
 
@@ -78,8 +101,6 @@ input::placeholder{color:#666666;}
 .ss-card .line-4::before, .ss-card .line-4::after{background:white;}
 .ss-card .line-3.bg-p::before, .ss-card .line-3.bg-p::after,
 .ss-card .line-4.bg-p::before, .ss-card .line-4.bg-p::after{background:#f93a1d;}
-
-
 
 
 /* Section 02 */

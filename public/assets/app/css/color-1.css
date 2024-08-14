@@ -47,6 +47,29 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, iframe, .ss-card-18{filte
 .btn.btn-t, .btn.btn-t:focus{border-color:#ffffff;}
 
 
+/* Hex */
+/* .hex.hex-back{color:#ffffff!important;}
+.hex.hex-fb{color:#000000;}
+.hex.hex-fb > .wrapper{color:#000000;}
+.hex.hex-fb > .wrapper{color:#f93a1d;}
+.hex.hex-fb.hex-back > .wrapper{color:#ffffff;}
+.hex.hex-ig{color:#ffffff;}
+.hex.hex-ig > .wrapper{color:#f93a1d;}
+.hex.hex-ig.hex-back > .wrapper{color:#ffffff;}
+.hex.hex-yt{color:#ffffff;}
+.hex.hex-yt > .wrapper{color:#f93a1d;}
+.hex.hex-yt.hex-back > .wrapper{color:#ffffff;}
+.hex.hex-pr{color:#ffffff;}
+.hex.hex-pr > .wrapper{color:#f93a1d;}
+.hex.hex-pr.hex-back > .wrapper{color:#ffffff;}
+.hex.hex-tw{color:#ffffff;}
+.hex.hex-tw > .wrapper{color:#f93a1d;}
+.hex.hex-tw.hex-back > .wrapper{color:#ffffff;}
+.hex.hex-ln{color:#ffffff;}
+.hex.hex-ln > .wrapper{color:#f93a1d;}
+.hex.hex-ln.hex-back > .wrapper{color:#ffffff;} */
+
+
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
 input[type=number], input[type=phone], input[type=submit], input[type=file], select, textarea{
     color:#000000; background:#ffffff; border-color:#ffffff;
@@ -57,9 +80,6 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 .section-01 .services{border-top:1px solid #ffffff; border-bottom:1px solid #ffffff;}
 .section-01 .service:not(:last-child){border-color:#ffffff;}
 
-/* @media screen and (max-width:767.98px){
-  .section-01 .service{border-color:#ffffff;}
-} */
 
 /* Section 02 */
 .section-02 .panel-right .swiper-pagination .swiper-pagination-bullet-active{background:#ffffff;}
