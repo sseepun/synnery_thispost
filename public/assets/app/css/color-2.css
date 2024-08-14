@@ -56,7 +56,12 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 
 /* Special Card */
 .ss-card .line-1::before, .ss-card .line-1::after,
-.ss-card .line-2::before, .ss-card .line-2::after{background:#ffffff;}
+.ss-card .line-2::before, .ss-card .line-2::after{background:#fecb00;}
+.ss-card .line-3::before, .ss-card .line-3::after,
+.ss-card .line-4::before, .ss-card .line-4::after{background:#ffff00;}
+.ss-card .line-3.bg-p::before, .ss-card .line-3.bg-p::after,
+.ss-card .line-4.bg-p::before, .ss-card .line-4.bg-p::after{background:#ffff00;}
+
 
 /* Special Card 01 */
 .ss-card-01 .text-wrapper{border-color:#ffff00;}

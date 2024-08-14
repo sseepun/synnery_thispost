@@ -47,33 +47,31 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, iframe, .ss-card-18{filte
 .btn.btn-t, .btn.btn-t:focus{border-color:#ffffff;}
 
 
-/* Hex */
-/* .hex.hex-back{color:#ffffff!important;}
-.hex.hex-fb{color:#000000;}
-.hex.hex-fb > .wrapper{color:#000000;}
-.hex.hex-fb > .wrapper{color:#f93a1d;}
-.hex.hex-fb.hex-back > .wrapper{color:#ffffff;}
-.hex.hex-ig{color:#ffffff;}
-.hex.hex-ig > .wrapper{color:#f93a1d;}
-.hex.hex-ig.hex-back > .wrapper{color:#ffffff;}
-.hex.hex-yt{color:#ffffff;}
-.hex.hex-yt > .wrapper{color:#f93a1d;}
-.hex.hex-yt.hex-back > .wrapper{color:#ffffff;}
-.hex.hex-pr{color:#ffffff;}
-.hex.hex-pr > .wrapper{color:#f93a1d;}
-.hex.hex-pr.hex-back > .wrapper{color:#ffffff;}
-.hex.hex-tw{color:#ffffff;}
-.hex.hex-tw > .wrapper{color:#f93a1d;}
-.hex.hex-tw.hex-back > .wrapper{color:#ffffff;}
-.hex.hex-ln{color:#ffffff;}
-.hex.hex-ln > .wrapper{color:#f93a1d;}
-.hex.hex-ln.hex-back > .wrapper{color:#ffffff;} */
+/* Footer */
+nav.footer .social .front{border-color:#ffffff; background:#ffffff; color:#ffffff;}
+nav.footer .social.fb .back{border-color:#ffffff; background:#ffffff; color:#000000;}
+nav.footer .social.tw .back{border-color:#ffffff; background:#ffffff; color:#000000;}
+nav.footer .social.yt .back{border-color:#ffffff; background:#ffffff; color:#000000;}
+nav.footer .social.ig .back{border-color:#ffffff; background:#ffffff; color:#000000;}
+nav.footer .social.ln .back{border-color:#ffffff; background:#ffffff; color:#000000;}
+nav.footer .social.mg .back{border-color:#ffffff; background:#ffffff; color:#000000;}
+nav.footer .panel-right .menu-container .menu .icon{color:#ffffff;}
+nav.footer .panel-right .menu-container .menu .title{color:#ffffff;}
 
 
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
 input[type=number], input[type=phone], input[type=submit], input[type=file], select, textarea{
     color:#000000; background:#ffffff; border-color:#ffffff;
 }
+
+
+/* Special Card */
+.ss-card .line-1::before, .ss-card .line-1::after,
+.ss-card .line-2::before, .ss-card .line-2::after{background:#ffffff;}
+.ss-card .line-3::before, .ss-card .line-3::after,
+.ss-card .line-4::before, .ss-card .line-4::after{background:#ffffff;}
+.ss-card .line-3.bg-p::before, .ss-card .line-3.bg-p::after,
+.ss-card .line-4.bg-p::before, .ss-card .line-4.bg-p::after{background:#ffffff;}
 
 
 /* Section 01 */

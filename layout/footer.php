@@ -16,7 +16,7 @@
               <div class="wrapper">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('<?php echo $d['img'];?>');"></div>
-                  <div class="ss-card-shine"></div>
+                  <div class="hover-filter"></div>
                   <div class="line-1"></div>
                   <div class="line-2"></div>
                 </div>

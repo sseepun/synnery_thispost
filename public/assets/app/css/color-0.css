@@ -68,27 +68,8 @@ input::placeholder{color:#666666;}
 .bshadow-03{box-shadow:rgba(0,0,0,.16) 0px 8px 16px!important;}
 
 
-/* Hex */
-.hex::before{border-color:#f93a1d;}
-.hex.hex-back{color:#f93a1d!important;}
-.hex.hex-fb{color:#ffffff;}
-.hex.hex-fb > .wrapper{color:#f93a1d;}
-.hex.hex-fb.hex-back > .wrapper{color:#ffffff;}
-.hex.hex-ig{color:#ffffff;}
-.hex.hex-ig > .wrapper{color:#f93a1d;}
-.hex.hex-ig.hex-back > .wrapper{color:#ffffff;}
-.hex.hex-yt{color:#ffffff;}
-.hex.hex-yt > .wrapper{color:#f93a1d;}
-.hex.hex-yt.hex-back > .wrapper{color:#ffffff;}
-.hex.hex-pr{color:#ffffff;}
-.hex.hex-pr > .wrapper{color:#f93a1d;}
-.hex.hex-pr.hex-back > .wrapper{color:#ffffff;}
-.hex.hex-tw{color:#ffffff;}
-.hex.hex-tw > .wrapper{color:#f93a1d;}
-.hex.hex-tw.hex-back > .wrapper{color:#ffffff;}
-.hex.hex-ln{color:#ffffff;}
-.hex.hex-ln > .wrapper{color:#f93a1d;}
-.hex.hex-ln.hex-back > .wrapper{color:#ffffff;}
+/* Banner 01 */
+.banner-01 .swiper > .swiper-wrapper .swiper-slide .main-title{border-color:#ffffff;}
 
 
 /* Special Card Hover Filter 01 */
@@ -120,7 +101,8 @@ nav.topnav .topnav-wrapper .topnav-top .options .option:nth-child(4){background:
 nav.topnav .topnav-wrapper .topnav-top .options .option:nth-child(5){background:#808183;}
 nav.topnav .topnav-wrapper .topnav-top .options .option:last-child{background:#14206a;}
 nav.topnav .hamburger > *{background:#ffffff;}
-nav.topnav .topnav-wrapper .topnav-top .search-container input{background:#9da0a5;}
+nav.topnav .topnav-wrapper .topnav-top .search-container input{background:#9da0a5; color:#ffffff;}
+nav.topnav .topnav-wrapper .topnav-top .search-container input:focus{background:#14206a;}
 nav.topnav .topnav-wrapper .topnav-top .search-container input::placeholder{color:#ffffff;}
 nav.topnav .topnav-wrapper .topnav-bottom .menu-container .menu:hover::before{background:#ffffff;}
 nav.topnav .topnav-wrapper .topnav-bottom .menu-container .menu:hover >*:first-child{color:#f93a1d!important;}

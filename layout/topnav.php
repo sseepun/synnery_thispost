@@ -20,8 +20,11 @@
   <div class="topnav-wrapper">
     <div class="panel-left">
       <div class="logo-container">
-        <a class="logo" href="#">
-          <img src="public/assets/app/images/logo.png" alt="Logo">
+        <a class="logo img bounce-in-right" href="#">
+          <img src="public/assets/app/images/logo-isolated.png" alt="Logo">
+        </a>
+        <a class="logo text" href="#">
+          <img src="public/assets/app/images/logo-text.png" alt="Logo">
         </a>
       </div>
     </div>
@@ -32,6 +35,9 @@
             <input type="text" placeholder="ค้นหา ..." require="">
             <button class="btn btn-icon color-p color-black-theme">
               <em class="fa-solid fa-magnifying-glass"></em>
+            </button>
+            <button class="btn btn-icon btn-p right-0 op-0">
+              <img src="public/assets/app/images/icon/paper-plane.svg" alt="Icon">
             </button>
           </form>
         </div>

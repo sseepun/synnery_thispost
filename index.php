@@ -9,9 +9,9 @@
 
 <?php 
     $banner = [
-      ['imgBg' => 'public/assets/app/images/banner/01.jpg'],
-      ['imgBg' => 'public/assets/app/images/banner/01.jpg'],
-      ['imgBg' => 'public/assets/app/images/banner/01.jpg'],
+      ['imgBg' => 'public/assets/app/images/banner/02.jpg'],
+      ['imgBg' => 'public/assets/app/images/banner/02.jpg'],
+      ['imgBg' => 'public/assets/app/images/banner/02.jpg'],
     ]
   ?>
   <div class="banner-01">
@@ -19,8 +19,22 @@
       <div class="swiper-wrapper">
         <?php foreach($banner as $d) {?>
           <div class="swiper-slide">
-            <div class="wrapper">
-              <div class="img-bg" style="background-image:url('<?= $d['imgBg'] ?>');"></div>
+            <div class="img-bg" style="background-image:url('<?= $d['imgBg'] ?>');"></div>
+            <div class="hero animate" style="--delay:.55s;">
+                <img src="public/assets/app/images/hero/01.png" class="Hero">
+              </div>
+            <div class="container">
+              <div class="text-wrapper animate" style="--delay:.4s;">
+                <div class="wrapper">
+                  <h1 class="color-white md-no-br main-title">วางใจ...<br>
+                    <span class="h2">ลุยไปด้วยกัน</span>
+                  </h1>
+                  <p class="h4 color-white mt-2">
+                    หน้าที่ขายเป็นของคุณ<br>
+                    หน้าที่ส่งเป็นของเรา
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         <?php } ?>
@@ -92,7 +106,17 @@
   </section>
   
   <section class="section-02 section-padding" data-aos="fade-up" data-aos-delay="150">
-    <div class="container">
+    <div class="pattern style-01">
+      <div class="wrapper">
+        <img src="public/assets/app/images/patterns/01.png" alt="Pattern">
+      </div>    
+    </div>
+    <div class="pattern style-02">
+      <div class="wrapper">
+        <img src="public/assets/app/images/patterns/02.png" alt="Pattern">
+      </div>    
+    </div>
+    <div class="container" style="z-index:2;">
       <div class="panel-left show-tablet">
         <div>
           <div class="ss-header">
@@ -166,9 +190,7 @@
                         <div class="line-3 bg-p"></div>
                         <div class="line-4 bg-p"></div>
                       </div>
- 
                     </div>
-                    
                   </div>
                 </div>
               <?php }}?>
