@@ -109,6 +109,7 @@ nav.topnav .topnav-wrapper .topnav-top .options .option .flag-dropdown .flag-ite
 nav.topnav .topnav-wrapper .topnav-top .options .option .flag-dropdown .flag-item:hover{background:#ffffff;}
 nav.topnav .topnav-wrapper .topnav-top .options .option .flag-dropdown .flag-item.active .title, 
 nav.topnav .topnav-wrapper .topnav-top .options .option .flag-dropdown .flag-item:hover .title {color:#000000!important;}
+nav.topnav .topnav-wrapper .topnav-top .search-container .btn-icon.right-0{background:#000000!important;}
 
 
 /* Sidenav */
