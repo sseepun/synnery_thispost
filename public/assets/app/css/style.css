@@ -30,6 +30,21 @@ button, .btn{
 @-webkit-keyframes shine {100% {left: 125%;}}
 @keyframes shine {100% {left: 125%;}}
 
+/* Bounce In Right */
+@keyframes bounce-in-right{
+    0% {opacity:0;transform:translateX(50px);}
+    60%{opacity:1;transform:translateX(-1px);}
+    80% {transform:translateX(10px);}
+    100%{transform:translateX(0);}
+}
+
+
+/* Roll In */
+@keyframes roll-in {
+0% {opacity:0; transform:translateX(100%);}
+100%{opacity:1; transform:translateX(0px);}
+}
+
 
 /* Scrollbar */
 ::-webkit-scrollbar{width:5px; border-radius:.25rem;}
@@ -291,6 +306,7 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 /* Special Header */
 .ss-header{display:flex;}
 .ss-header img{display:block; height:1.25rem; width:auto; margin:.1875rem .125rem 0 0;}
+.ss-header.aos-init.aos-animate img.roll-in{animation:roll-in 1.5s ease;}
 
 
 /* Special Image */

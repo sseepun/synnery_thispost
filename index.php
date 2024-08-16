@@ -119,8 +119,8 @@
     <div class="container" style="z-index:2;">
       <div class="panel-left show-tablet">
         <div>
-          <div class="ss-header">
-            <img src="public/assets/app/images/logo-red.png" alt="Icon" />
+          <div class="ss-header" data-aos="" data-aos-delay="150">
+            <img class="roll-in" src="public/assets/app/images/logo-red.png" alt="Icon" />
             <p class="fw-400 lh-xxs color-p">THAILAND POST SERVICES</p>
           </div>
           <h3 class="fw-600 lh-xs color-t">บริการยอดนิยม</h3>
@@ -136,8 +136,8 @@
       <div class="panels">
         <div class="panel-left hide-tablet">
           <div>
-            <div class="ss-header">
-              <img src="public/assets/app/images/logo-red.png" alt="Icon" />
+            <div class="ss-header" data-aos="" data-aos-delay="300">
+              <img class="roll-in" src="public/assets/app/images/logo-red.png" alt="Icon" />
               <p class="fw-400 lh-xxs color-p">THAILAND POST SERVICES</p>
             </div>
             <h3 class="fw-600 lh-xs color-t">บริการยอดนิยม</h3>
@@ -212,8 +212,8 @@
     <div class="container">
       <div class="panel-header">
         <div>
-          <div class="ss-header">
-            <img src="public/assets/app/images/logo-red.png" alt="Icon" />
+          <div class="ss-header" data-aos="" data-aos-delay="450">
+            <img class="roll-in" src="public/assets/app/images/logo-red.png" alt="Icon" />
             <p class="fw-400 lh-xxs color-p">THAILAND POST SERVICES</p>
           </div>
           <h3 class="fw-600 lh-xs color-t">ข่าวสารจากไปรษณีย์ไทย</h3>

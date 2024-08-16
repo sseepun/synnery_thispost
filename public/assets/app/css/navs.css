@@ -12,6 +12,7 @@
     100%{transform:translateX(0);}
 }
 
+
 /* Topnav */
 nav.topnav{
     position:fixed; top:1.5rem; left:3rem; border-radius:.5rem; z-index:3;
